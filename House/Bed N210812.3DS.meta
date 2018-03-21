@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 2dacae861261516418021e7a8b010d51
+timeCreated: 1521567646
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ___ _
+    100002: ___ _01
+    100004: ___ _02
+    100006: ___ _03
+    100008: ___ _04
+    100010: ___ _05
+    100012: ____
+    100014: ____ ___
+    100016: _____ __
+    100018: _____ __01
+    100020: _____ __02
+    100022: _____ __03
+    100024: _____ ___
+    100026: _____ ___
+    100028: _____ ___0
+    100030: ______
+    100032: '______ _ '
+    100034: _______0
+    100036: //RootNode
+    100038: Box02
+    100040: Box03
+    100042: Box04
+    100044: Box05
+    100046: Cylinder01
+    100048: Cylinder02
+    100050: Line01
+    100052: Line02
+    100054: Line03
+    100056: Shape1
+    100058: Shape10
+    100060: Shape11
+    100062: Shape12
+    100064: Shape13
+    100066: Shape14
+    100068: Shape15
+    100070: Shape17
+    100072: Shape18
+    100074: Shape2
+    100076: Shape20
+    100078: Shape21
+    100080: Shape23
+    100082: Shape24
+    100084: Shape25
+    100086: Shape26
+    100088: Shape27
+    100090: Shape3
+    100092: Shape32
+    100094: Shape4
+    100096: Shape41
+    100098: Shape42
+    100100: Shape43
+    100102: Shape44
+    100104: Shape45
+    100106: Shape5
+    100108: Shape6
+    100110: Shape7
+    100112: Shape8
+    100114: Shape9
+    100116: Sphere01
+    100118: Sphere02
+    100120: Surface01
+    400000: ___ _
+    400002: ___ _01
+    400004: ___ _02
+    400006: ___ _03
+    400008: ___ _04
+    400010: ___ _05
+    400012: ____
+    400014: ____ ___
+    400016: _____ __
+    400018: _____ __01
+    400020: _____ __02
+    400022: _____ __03
+    400024: _____ ___
+    400026: _____ ___
+    400028: _____ ___0
+    400030: ______
+    400032: '______ _ '
+    400034: _______0
+    400036: //RootNode
+    400038: Box02
+    400040: Box03
+    400042: Box04
+    400044: Box05
+    400046: Cylinder01
+    400048: Cylinder02
+    400050: Line01
+    400052: Line02
+    400054: Line03
+    400056: Shape1
+    400058: Shape10
+    400060: Shape11
+    400062: Shape12
+    400064: Shape13
+    400066: Shape14
+    400068: Shape15
+    400070: Shape17
+    400072: Shape18
+    400074: Shape2
+    400076: Shape20
+    400078: Shape21
+    400080: Shape23
+    400082: Shape24
+    400084: Shape25
+    400086: Shape26
+    400088: Shape27
+    400090: Shape3
+    400092: Shape32
+    400094: Shape4
+    400096: Shape41
+    400098: Shape42
+    400100: Shape43
+    400102: Shape44
+    400104: Shape45
+    400106: Shape5
+    400108: Shape6
+    400110: Shape7
+    400112: Shape8
+    400114: Shape9
+    400116: Sphere01
+    400118: Sphere02
+    400120: Surface01
+    2100000: 09 - Default
+    2100002: ______
+    2100004: 08 - Default
+    2100006: 03 - Default
+    2300000: ___ _
+    2300002: ___ _01
+    2300004: ___ _02
+    2300006: ___ _03
+    2300008: ___ _04
+    2300010: ___ _05
+    2300012: ____ ___
+    2300014: _____ __
+    2300016: _____ __01
+    2300018: _____ __02
+    2300020: _____ __03
+    2300022: Box02
+    2300024: Box03
+    2300026: Box04
+    2300028: Box05
+    2300030: Cylinder01
+    2300032: Cylinder02
+    2300034: Line01
+    2300036: Line02
+    2300038: Line03
+    2300040: Shape1
+    2300042: Shape10
+    2300044: Shape11
+    2300046: Shape12
+    2300048: Shape13
+    2300050: Shape14
+    2300052: Shape15
+    2300054: Shape17
+    2300056: Shape18
+    2300058: Shape2
+    2300060: Shape20
+    2300062: Shape21
+    2300064: Shape23
+    2300066: Shape24
+    2300068: Shape25
+    2300070: Shape26
+    2300072: Shape27
+    2300074: Shape3
+    2300076: Shape32
+    2300078: Shape4
+    2300080: Shape41
+    2300082: Shape42
+    2300084: Shape43
+    2300086: Shape44
+    2300088: Shape45
+    2300090: Shape5
+    2300092: Shape6
+    2300094: Shape7
+    2300096: Shape8
+    2300098: Shape9
+    2300100: Sphere01
+    2300102: Sphere02
+    2300104: Surface01
+    3300000: ___ _
+    3300002: ___ _01
+    3300004: ___ _02
+    3300006: ___ _03
+    3300008: ___ _04
+    3300010: ___ _05
+    3300012: ____ ___
+    3300014: _____ __
+    3300016: _____ __01
+    3300018: _____ __02
+    3300020: _____ __03
+    3300022: Box02
+    3300024: Box03
+    3300026: Box04
+    3300028: Box05
+    3300030: Cylinder01
+    3300032: Cylinder02
+    3300034: Line01
+    3300036: Line02
+    3300038: Line03
+    3300040: Shape1
+    3300042: Shape10
+    3300044: Shape11
+    3300046: Shape12
+    3300048: Shape13
+    3300050: Shape14
+    3300052: Shape15
+    3300054: Shape17
+    3300056: Shape18
+    3300058: Shape2
+    3300060: Shape20
+    3300062: Shape21
+    3300064: Shape23
+    3300066: Shape24
+    3300068: Shape25
+    3300070: Shape26
+    3300072: Shape27
+    3300074: Shape3
+    3300076: Shape32
+    3300078: Shape4
+    3300080: Shape41
+    3300082: Shape42
+    3300084: Shape43
+    3300086: Shape44
+    3300088: Shape45
+    3300090: Shape5
+    3300092: Shape6
+    3300094: Shape7
+    3300096: Shape8
+    3300098: Shape9
+    3300100: Sphere01
+    3300102: Sphere02
+    3300104: Surface01
+    4300000: Box05
+    4300002: Box04
+    4300004: Box03
+    4300006: Box02
+    4300008: Surface01
+    4300010: Shape42
+    4300012: Shape41
+    4300014: Shape32
+    4300016: Shape27
+    4300018: Shape26
+    4300020: Shape25
+    4300022: Shape24
+    4300024: Shape23
+    4300026: Shape21
+    4300028: Shape15
+    4300030: Line01
+    4300032: ____ ___
+    4300034: Shape20
+    4300036: _____ __01
+    4300038: ___ _
+    4300040: Line02
+    4300042: ___ _02
+    4300044: ___ _01
+    4300046: Shape18
+    4300048: Shape17
+    4300050: Shape14
+    4300052: Sphere01
+    4300054: Cylinder01
+    4300056: _____ __
+    4300058: Shape43
+    4300060: Shape44
+    4300062: Shape45
+    4300064: Sphere02
+    4300066: Cylinder02
+    4300068: _____ __02
+    4300070: Line03
+    4300072: _____ __03
+    4300074: ___ _03
+    4300076: ___ _04
+    4300078: ___ _05
+    4300080: Shape13
+    4300082: Shape4
+    4300084: Shape12
+    4300086: Shape7
+    4300088: Shape11
+    4300090: Shape6
+    4300092: Shape10
+    4300094: Shape9
+    4300096: Shape8
+    4300098: Shape5
+    4300100: Shape1
+    4300102: Shape2
+    4300104: Shape3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: f02bd72efc92b3449a500b0513e0fb71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 97791952c02d3ae489bd8b0b1a657a67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: 564fa2ec9eff75248b8c5c0d2ef1b274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default-Material
+    second: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ______
+    second: {fileID: 2100000, guid: 403dbff9999cc8d44ab8fef689b06bbc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
