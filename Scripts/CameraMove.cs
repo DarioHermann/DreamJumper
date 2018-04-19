@@ -19,10 +19,10 @@ public class CameraMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		playerObj = GameObject.Find ("Player");
-		cameraOffset = new Vector3(0, 0, 1);
+		cameraOffset = new Vector3(0, 1, 1);
 		transform.parent = playerObj.transform;
 		transform.localPosition = cameraOffset;
-		transform.LookAt (playerObj.transform);
+		//transform.LookAt (playerObj.transform);
 
 	}
 	

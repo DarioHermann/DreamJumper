@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class doorOpenerTwo : MonoBehaviour {
 
 	private Animator _animator;
-	bool open = false;
-
-	public bool openedFirstDoor = false;
+	public static bool open = false;
+	bool canOpen = false;
+	public Text action_text;
 
 	// Use this for initialization
 	void Start () {
@@ -16,20 +17,25 @@ public class doorOpenerTwo : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player") {
-			open = true;
+			if (!open)
+				action_text.text = "Press F to open door";
+			canOpen = true;
 		}
 	}
 
 	void OnTriggerExit(Collider other){
-		open = false;
+		if (other.tag == "Player") {
+			canOpen = false;
+			action_text.text = "";
+		}
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (open) {
+		if (canOpen) {
 			if (Input.GetKeyUp (KeyCode.F)) {
 				_animator.SetBool ("open", true);
-				openedFirstDoor = true;
+				open = true;
 			}
 		}
 	}
