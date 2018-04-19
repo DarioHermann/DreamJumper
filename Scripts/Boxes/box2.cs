@@ -14,14 +14,13 @@ public class box2 : MonoBehaviour {
 	box2hit1 hitFour;
 	GameObject hFour;
 
-	private bool isMoving = false;
 	private bool heyo = false;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
-		rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
-		hOne = GameObject.Find ("woodBox 2 Hit 1");
+		rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ; //I use this so the box doesn't fly off when hitting a wall
+		hOne = GameObject.Find ("woodBox 2 Hit 1"); //Yes, for some reason, without that, the box just started flying away after hitting the wall
 		hitOne = hOne.GetComponent<box2hit1> ();
 		hTwo = GameObject.Find ("woodBox 2 Hit 2");
 		hitTwo = hTwo.GetComponent<box2hit1> ();
@@ -33,26 +32,19 @@ public class box2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*if (rb.velocity.x != 0.0f || rb.velocity.y != 0.0f || rb.velocity != 0.0f )
-			isMoving = true;
-		else
-			isMoving = false;*/
-		
 		if(heyo)
-			rb.isKinematic = true;
+			rb.isKinematic = true; //this was a test, and now I'm scared to take it out and everything stops working
 	}
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "box") {
-			//rb.isKinematic = true;
-			rb.constraints = RigidbodyConstraints.FreezeAll;
-			StartCoroutine (waiter ());
+			rb.constraints = RigidbodyConstraints.FreezeAll;//want to make the boxes stop when hitting each other, but just can't
+			StartCoroutine (waiter ()); //And that's the reason why the second time the player tries the second dream, it doesn't really work.
 		}
 	}
 
 
-	void FixedUpdate(){
-		//if(!isMoving){
+	void FixedUpdate(){ //I use this to make the boxes move, It's a if statement for each side of the cube (that the player can reach)
 		if (hitOne.triggered) {
 			Debug.Log ("one");
 			if (Input.GetKeyUp (KeyCode.F)) {
@@ -77,12 +69,9 @@ public class box2 : MonoBehaviour {
 				rb.AddForce (0, 0, -0.5f, ForceMode.Impulse);
 			}
 		}
-		
-
-		//}
 	}
 
-	IEnumerator waiter(){
+	IEnumerator waiter(){ //Doesn't really work for what I wanted, so just ignore
 		yield return new WaitForSeconds (3);
 		rb.isKinematic = false;
 

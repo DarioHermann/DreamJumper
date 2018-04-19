@@ -5,13 +5,18 @@ It's a little game (around 8 minutes to complete if you fully know what to do) w
 Those Nightmares are the puzzles of the game.
 
 ## Prerequisites
-First things first you need to download [Dream Jumper](https://drive.google.com/open?id=1Xi4yjpNAdkpLZ6Y4GuO7SAfambqgZ9C4) from my Google Drive (Just click Dream Jumper).  
+First things first you need to download the game, you can either by downloading from my [Google Drive](https://drive.google.com/open?id=1Xi4yjpNAdkpLZ6Y4GuO7SAfambqgZ9C4) (Just click Dream Jumper), or my repository inside the folder Game Executable.  
+
+```
+git clone https://github.com/DarioHermann/DreamJumper
+```
+
 You'll need all three files, DreamJumper_Data Folder, DreamJumper.exe, UnityPlayer.dll and save them in a file anywhere on your PC.
 
 ## Instructions
 To start it simply double click DreamJumper.exe.  
 Your game should start, if it doesn't start just open an Issue.  
-Unfortunately at the current version it doesn't has a quit the game option. I'm really sorry for that you'll have to simply close the running process.
+Unfortunately at the current version it doesn't have a quit the game option. I'm really sorry for that you'll have to simply close the running process.
 
 ## Controls
 The controls are very simple.  
@@ -29,7 +34,7 @@ Be aware that everytime the player Dream Jumps (going inside a dream) it costs e
 The game has a simple method of keeping the players score, the objective is to complete the game in as less in-game time as possible. Regaining energy (sleeping) will forward eight in-game hours, Dream Jumping will forward three.
 
 ## Requirements
-Don't even worry about it. It will run on your nanny's PC. The only requirement you need is a Windows PC/Mac.
+Don't even worry about it. It will run on your nanny's PC. The only requirement you need is a Windows PC/Mac/Linux.
 
 ## Built With
 * **[Unity](https://unity3d.com/)** - Game Development Environment
@@ -48,3 +53,5 @@ This game is on it's 1.0 version. I'll probably update it in a near future or I'
 * A Big Thanks to [Textures.com](https://www.textures.com) for almost every texture.
 * Other Textures are from The Sims games.
 * None of the Sounds in this game belong to me.
+
+* I heavily inspired myself in *Psychonauts* (I'm sure you understand why), and *Luigi's Mansion* for the overworld of the game. And the puzzle aspect I took heavy inspiration in *The Legend of Zelda*.

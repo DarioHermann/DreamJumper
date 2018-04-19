@@ -4,26 +4,16 @@ using UnityEngine;
 
 public class yellowPiece : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-
-	void OnTriggerEnter(Collider other){
+	void OnTriggerEnter(Collider other){ //This class works as the objective for the second dream, the box has to be on top of it
 		if (other.tag == "Box") {
 			PlayerController.completedLevelTwo = true;
 			StartCoroutine (waiter ());
 		}
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	IEnumerator waiter(){
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (2); //after the box touches it, the first scene is loaded again.
 		Application.LoadLevel ("Dream Jumper Scene");
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class speakerScript : MonoBehaviour {
+public class speakerScript : MonoBehaviour { //This class works as the script for the Speakers inside the house
 
 	bool canTurnOff = false;
 	public static bool stoppedSong = false;
@@ -39,7 +39,7 @@ public class speakerScript : MonoBehaviour {
 				action_text.text += "On";
 			else
 				action_text.text += "Off";
-			if (Input.GetKeyUp (KeyCode.F)) {
+			if (Input.GetKeyUp (KeyCode.F)) { //If The player interacts with the speaker can start or stop the song
 				if (stoppedSong)
 					_audio.Play ();
 				else
